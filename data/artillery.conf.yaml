@@ -1,0 +1,11 @@
+config:
+  target: ''
+  phases:
+    - duration: 60
+      arrivalRate: 20
+      rampTo: 500
+
+scenarios:
+  - flow:
+    - get:
+        url: "/?x=[%272017-06-15%27,%272017-06-16%27,%272017-06-17%27,%272017-06-18%27,%272017-06-19%27]&ys=[[5,4,3,3,3],[1,2,3,4,5]]&labels=[%27prueba%20area%20chart%20con%20fecha%20STACKED%27,%27label%27]&divId=chart&xType=%27date%27&kind=AreaChart&stacked=true"
