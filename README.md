@@ -1,6 +1,10 @@
 # artillery
 Dockerized @shoreditch-ops's artillery, with @matplotlib load charts
 
+## Requirements
+
+The usage of [multi-stage builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/#use-multi-stage-builds) requires running docker >= 17.05.
+
 ## Usage
 
 Build
